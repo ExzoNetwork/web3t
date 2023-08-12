@@ -13,9 +13,9 @@
     mask: '3000000000000000000000000000000000',
     api: {
       provider: 'solana',
-      web3Provider: 'https://api.exzo.com',
-      url: 'https://native.exzo.com',
-      apiUrl: 'https://api.exzo.com',
+      web3Provider: 'https://evm.exzoscan.io',
+      url: 'https://exzoscan.io',
+      apiUrl: 'https://rpc-main-1.exzo.network',
       validatorsBackend: 'https://validators.mainnet.exzo.com',
     },
     HomeBridge: "0x56454c41532d434841494e000000000053574150",
