@@ -13,7 +13,7 @@
     mask: '3000000000000000000000000000000000',
     api: {
       provider: 'solana',
-      web3Provider: 'https://evm.exzoscan.io',
+      web3Provider: 'https://evm.exzo.network',
       url: 'https://exzoscan.io',
       apiUrl: 'https://rpc-main-1.exzo.network',
       validatorsBackend: 'https://validators.mainnet.exzo.com',
