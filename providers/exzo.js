@@ -60,7 +60,7 @@
   out$.getTransactions = getTransactions = function(arg$, cb){
     var network, address;
     network = arg$.network, address = arg$.address;
-    return get("https://oldexplorer.exzo.com/history-api/" + address + "/txs").end(function(err, data){
+    return get("https://oldevm.exzoscan.io/history-api/" + address + "/txs").end(function(err, data){
       var txs;
       if (err != null) {
         return cb(err);
@@ -207,7 +207,7 @@
     if (!Wallet.IsValidAddress(address)) {
       return cb("Given address is not valid Exzo address");
     }
-    return get("https://oldexplorer.exzo.com/api/v1/wallet/balance/" + address).end(function(err, data){
+    return get("https://oldevm.exzoscan.io/api/v1/wallet/balance/" + address).end(function(err, data){
       if (err != null) {
         return cb(err);
       }

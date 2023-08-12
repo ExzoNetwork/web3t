@@ -25,9 +25,9 @@
       "mask": "0x0000000000000000000000000000000000000000",
       "api": {
         "provider": "xzoerc20",
-        "web3Provider": "https://explorer.exzo.com/rpc",
-        "url": "https://explorer.exzo.com",
-        "apiUrl": "https://explorer.exzo.com/api"
+        "web3Provider": "https://evm.exzo.network",
+        "url": "https://evm.exzoscan.io",
+        "apiUrl": "https://rpc-main-1.exzo.network"
       },
       "group": 'Exzo Legacy'
     }
