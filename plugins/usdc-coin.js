@@ -22,10 +22,10 @@
     txFeeIn: "eth",
     txBridgeFeeIn: "eth",
     networks: {
-      vlx_usdc: {
-        id: "vlx_usdc",
+      xzo_usdc: {
+        id: "xzo_usdc",
         name: "Velas EVM (USDC VRC-20)",
-        referTo: "vlx_usdc"
+        referTo: "xzo_usdc"
       }
     }
   };
@@ -50,10 +50,10 @@
     txBridgeFeeIn: "eth",
     group: 'Ethereum',
     networks: {
-      vlx_usdc: {
-        id: "vlx_usdc",
+      xzo_usdc: {
+        id: "xzo_usdc",
         name: "Velas EVM (USDC VRC-20)",
-        referTo: "vlx_usdc"
+        referTo: "xzo_usdc"
       }
     }
   };

@@ -57,11 +57,11 @@
     ForeignBridge: "0xA5D512085006867974405679f2c9476F4F7Fa903",
     BridgeableToken: "0x3538C7f88aDbc8ad1F435f7EA70287e26b926344",
     networks: {
-      vlx_eth: {
+      xzo_eth: {
         disabled: true,
-        id: "vlx_eth",
+        id: "xzo_eth",
         name: "Ethereum (Velas EVM)",
-        referTo: "vlx_eth"
+        referTo: "xzo_eth"
       }
     },
     group: 'Ethereum'

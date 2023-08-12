@@ -1,7 +1,7 @@
 const { post } = require("../../superagent");
 const ERC20BridgeToken = require("../../../contracts/ERC20BridgeToken.json");
 const { div } = require("../../../math");
-const { vlxToEth } = require("../../../addresses");
+const { xzoToEth } = require("../../../addresses");
 const ABI = [
   {
     constant: true,
@@ -436,7 +436,7 @@ const getBalance = (arg$, cb) => {
   const web3Providers = getWeb3Providers(web3Provider, extraWeb3Providers);
 
   return balanceOfWithAvailableWeb3Provider(
-    !address.startsWith("V") ? address : vlxToEth(address),
+    !address.startsWith("V") ? address : xzoToEth(address),
     network,
     web3Providers,
     cb

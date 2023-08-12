@@ -36,10 +36,10 @@ const binanceBscRpc = require("./commonTokenConfigs/binanceBscRpc");
     FOREIGN_BRIDGE: "0x99664648b38781e22be98C8E22a7bAc26dbF95E1",
     FOREIGN_BRIDGE_TOKEN: "0xe9e7cea3dedca5984780bafc599bd69add087d56",
     networks: {
-      vlx_busd: {
-        id: "vlx_busd",
+      xzo_busd: {
+        id: "xzo_busd",
         name: "Velas (BUSD)",
-        referTo: "vlx_busd",
+        referTo: "xzo_busd",
       },
     },
   };
@@ -64,10 +64,10 @@ const binanceBscRpc = require("./commonTokenConfigs/binanceBscRpc");
     FOREIGN_BRIDGE_TOKEN: "0xed24fc36d5ee211ea25a80239fb8c4cfd80f12ee",
     group: "BSC",
     networks: {
-      vlx_busd: {
-        id: "vlx_busd",
+      xzo_busd: {
+        id: "xzo_busd",
         name: "Velas (BUSD)",
-        referTo: "vlx_busd",
+        referTo: "xzo_busd",
       },
     },
   };

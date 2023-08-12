@@ -21,7 +21,7 @@
     hdkey,
     bip39,
     ethToVlx,
-    vlxToEth,
+    xzoToEth,
     jsonParse,
     deadline,
     sha3,
@@ -77,7 +77,7 @@
     (bip39 = ref$.bip39);
   (ref$ = require("../addresses.js")),
     (ethToVlx = ref$.ethToVlx),
-    (vlxToEth = ref$.vlxToEth);
+    (xzoToEth = ref$.xzoToEth);
   jsonParse = require("../json-parse.js");
   deadline = require("../deadline.js");
   sha3 = require("crypto-js/sha3");
@@ -101,7 +101,7 @@
   );
   isAddress = function (address) {
     if (address.startsWith("V")) {
-      address = vlxToEth(address);
+      address = xzoToEth(address);
     }
     if (!/^(0x)?[0-9a-f]{40}$/i.test(address)) {
       return false;
@@ -617,7 +617,7 @@
     (address = arg$.address), (network = arg$.network);
     if (address.startsWith("V")) {
       try {
-        address = vlxToEth(address);
+        address = xzoToEth(address);
       } catch (e$) {
         e = e$;
         return cb("Address is not valid");

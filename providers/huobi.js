@@ -27,7 +27,7 @@
     decode,
     encode,
     Common,
-    vlxToEth,
+    xzoToEth,
     ethToVlx,
     sha3,
     ERC20BridgeToken,
@@ -90,7 +90,7 @@
   (ref$ = require("bs58")), (decode = ref$.decode), (encode = ref$.encode);
   Common = require("ethereumjs-common")["default"];
   (ref$ = require("../addresses.js")),
-    (vlxToEth = ref$.vlxToEth),
+    (xzoToEth = ref$.xzoToEth),
     (ethToVlx = ref$.ethToVlx);
   sha3 = require("crypto-js/sha3");
   ERC20BridgeToken = require("../contracts/ERC20BridgeToken.json");
@@ -140,7 +140,7 @@
     }
     res = null;
     try {
-      res = vlxToEth(velasAddress);
+      res = xzoToEth(velasAddress);
     } catch (e$) {
       err = e$;
       return cb(err);
@@ -149,7 +149,7 @@
   };
   if (typeof window != "undefined" && window !== null) {
     if (typeof window != "undefined" && window !== null) {
-      window.toEthAddress = vlxToEth;
+      window.toEthAddress = xzoToEth;
     }
   }
   out$.isValidAddress = isValidAddress = function (arg$, cb) {

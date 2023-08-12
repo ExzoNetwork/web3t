@@ -28,7 +28,7 @@
     decode,
     encode,
     Common,
-    vlxToEth,
+    xzoToEth,
     ethToVlx,
     sha3,
     isChecksumAddress,
@@ -97,7 +97,7 @@
   (ref$ = require("bs58")), (decode = ref$.decode), (encode = ref$.encode);
   Common = require("ethereumjs-common")["default"];
   (ref$ = require("../addresses.js")),
-    (vlxToEth = ref$.vlxToEth),
+    (xzoToEth = ref$.xzoToEth),
     (ethToVlx = ref$.ethToVlx);
   sha3 = require("crypto-js/sha3");
   commonProvider = require("./common/provider");
@@ -152,7 +152,7 @@
     }
     res = null;
     try {
-      res = vlxToEth(velasAddress);
+      res = xzoToEth(velasAddress);
     } catch (e$) {
       err = e$;
       return cb(err);
@@ -161,7 +161,7 @@
   };
   if (typeof window != "undefined" && window !== null) {
     if (typeof window != "undefined" && window !== null) {
-      window.toEthAddress = vlxToEth;
+      window.toEthAddress = xzoToEth;
     }
   }
   if (typeof window != "undefined" && window !== null) {
@@ -180,17 +180,17 @@
     });
   };
   getEthereumFullpairByIndex = function (mnemonic, index, network) {
-    var seed, wallet, w, address, vlxAddress, privateKey, publicKey;
+    var seed, wallet, w, address, xzoAddress, privateKey, publicKey;
     seed = bip39.mnemonicToSeed(mnemonic);
     wallet = hdkey.fromMasterSeed(seed);
     w = wallet.derivePath("m/44'/60'/" + index + "'/0/0").getWallet();
     address = "0x" + w.getAddress().toString("hex");
-    vlxAddress = ethToVlx(w.getAddress().toString("hex"));
+    xzoAddress = ethToVlx(w.getAddress().toString("hex"));
     privateKey = w.getPrivateKeyString();
     publicKey = w.getPublicKeyString();
     return {
       address: address,
-      vlxAddress: vlxAddress,
+      xzoAddress: xzoAddress,
       privateKey: privateKey,
       publicKey: publicKey,
     };
@@ -620,8 +620,8 @@
         }
         $token = (function () {
           switch (false) {
-            case token !== "bsc_vlx":
-              return "VLX";
+            case token !== "bsc_xzo":
+              return "XZO";
             default:
               return token;
           }

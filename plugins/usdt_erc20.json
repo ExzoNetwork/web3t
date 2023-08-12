@@ -33,10 +33,10 @@
         "FOREIGN_BRIDGE": "0x64aAA57EbAA875D3b70F19EDF9b423DFF3880817",
 
         "networks": {
-            "vlx_usdt": {
-                "id":"vlx_usdt",
+            "xzo_usdt": {
+                "id":"xzo_usdt",
                 "name": "Velas EVM (USDT VRC-20)",
-                "referTo": "vlx_usdt"
+                "referTo": "xzo_usdt"
             }
         },
         "group": "Ethereum"
@@ -66,10 +66,10 @@
         
         "group": "Ethereum",
         "networks": {
-            "vlx_usdt": {
-                "id": "vlx_usdt",
+            "xzo_usdt": {
+                "id": "xzo_usdt",
                 "name": "Velas EVM (USDT VRC-20)",
-                "referTo": "vlx_usdt"
+                "referTo": "xzo_usdt"
             }
         }
     }

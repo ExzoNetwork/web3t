@@ -15,7 +15,7 @@
     "mainnet": {
       "decimals": 18,
       "txFee": "0.000020",
-      "txFeeIn": "vlx2",
+      "txFeeIn": "xzo2",
       txFeeOptions: {
         auto: '0.0020',
         cheap: '0.00014'
@@ -24,7 +24,7 @@
       "address": "0x01db6acfa20562ba835ae9f5085859580a0b1386",
       "mask": "0x0000000000000000000000000000000000000000",
       "api": {
-        "provider": "vlxerc20",
+        "provider": "xzoerc20",
         "web3Provider": "https://explorer.velas.com/rpc",
         "url": "https://explorer.velas.com",
         "apiUrl": "https://explorer.velas.com/api"

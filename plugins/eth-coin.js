@@ -19,11 +19,11 @@
     nickname: 'eth',
     HOME_BRIDGE: "0x775DB93999c339e04276040069e2a08aAF3c13d4",
     networks: {
-      vlx_eth: {
+      xzo_eth: {
         disabled: false,
-        id: "vlx_eth",
+        id: "xzo_eth",
         name: "Velas EVM (ETH VRC20)",
-        referTo: "vlx_eth"
+        referTo: "xzo_eth"
       }
     },
     group: 'Ethereum'
@@ -64,11 +64,11 @@
     HOME_BRIDGE: "0xb1FAB785Cb5F2d9782519942921e9afCDf2C60e0",
     FOREIGN_BRIDGE_TOKEN: "0x3538C7f88aDbc8ad1F435f7EA70287e26b926344",
     networks: {
-      vlx_eth: {
+      xzo_eth: {
         disabled: false,
-        id: "vlx_eth",
+        id: "xzo_eth",
         name: "Velas EVM (ETH VRC20)",
-        referTo: "vlx_eth"
+        referTo: "xzo_eth"
       }
     },
     group: 'Ethereum'

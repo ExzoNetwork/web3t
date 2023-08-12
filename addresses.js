@@ -74,7 +74,7 @@ function ethToVlx(address_string) {
   );
 }
 
-function vlxToEth(address_string) {
+function xzoToEth(address_string) {
   if (address_string.length === 0) return null;
   string = address_string.replace("V", "");
   let bytes = [0];
@@ -128,5 +128,5 @@ function vlxToEth(address_string) {
 }
 
 
-module.exports.vlxToEth = vlxToEth;
+module.exports.xzoToEth = xzoToEth;
 module.exports.ethToVlx = ethToVlx;
