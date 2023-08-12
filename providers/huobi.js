@@ -127,20 +127,20 @@
       }
     }
   };
-  toEthAddress = function (velasAddress, cb) {
+  toEthAddress = function (exzoAddress, cb) {
     var res, err;
-    if (toString$.call(velasAddress).slice(8, -1) !== "String") {
-      return cb("required velas-address as a string");
+    if (toString$.call(exzoAddress).slice(8, -1) !== "String") {
+      return cb("required exzo-address as a string");
     }
-    if (isAddress(velasAddress)) {
-      return cb(null, velasAddress);
+    if (isAddress(exzoAddress)) {
+      return cb(null, exzoAddress);
     }
-    if (velasAddress[0] !== "V") {
-      return cb("velas address can be started with V");
+    if (exzoAddress[0] !== "V") {
+      return cb("exzo address can be started with V");
     }
     res = null;
     try {
-      res = xzoToEth(velasAddress);
+      res = xzoToEth(exzoAddress);
     } catch (e$) {
       err = e$;
       return cb(err);

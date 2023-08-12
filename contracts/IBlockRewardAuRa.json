@@ -77,15 +77,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.10+commit.5a6ea5b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"mintedTotally\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"address\"}],\"name\":\"mintedTotallyByBridge\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"\",\"type\":\"address\"}],\"name\":\"initialize\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"clearBlocksCreated\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"address\"}],\"name\":\"epochsPoolGotRewardFor\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256[]\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/IBlockRewardAuRa.sol\":\"IBlockRewardAuRa\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/IBlockRewardAuRa.sol\":{\"keccak256\":\"0x3530f79ac6d8930c178acf7d32de59414f248f2e619fb4085e6f7030c3c5d5d7\",\"urls\":[\"bzzr://ea94e03a9f9ca0f241de1bf1fa6ca536ea986c9fe0f8cb5016bf1f13f2b63a54\",\"dweb:/ipfs/QmPR1ihVpddDeXszWr6CPPsapkUo5A6kFQZnEQEQ3mnUMX\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.10+commit.5a6ea5b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"mintedTotally\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"address\"}],\"name\":\"mintedTotallyByBridge\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"\",\"type\":\"address\"}],\"name\":\"initialize\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"clearBlocksCreated\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"address\"}],\"name\":\"epochsPoolGotRewardFor\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256[]\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/IBlockRewardAuRa.sol\":\"IBlockRewardAuRa\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/IBlockRewardAuRa.sol\":{\"keccak256\":\"0x3530f79ac6d8930c178acf7d32de59414f248f2e619fb4085e6f7030c3c5d5d7\",\"urls\":[\"bzzr://ea94e03a9f9ca0f241de1bf1fa6ca536ea986c9fe0f8cb5016bf1f13f2b63a54\",\"dweb:/ipfs/QmPR1ihVpddDeXszWr6CPPsapkUo5A6kFQZnEQEQ3mnUMX\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity 0.5.10;\n\n\ninterface IBlockRewardAuRa {\n    function clearBlocksCreated() external;\n    function initialize(address) external;\n    function epochsPoolGotRewardFor(address) external view returns(uint256[] memory);\n    function mintedTotally() external view returns(uint256);\n    function mintedTotallyByBridge(address) external view returns(uint256);\n}\n",
-  "sourcePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/IBlockRewardAuRa.sol",
+  "sourcePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/IBlockRewardAuRa.sol",
   "ast": {
-    "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/IBlockRewardAuRa.sol",
+    "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/IBlockRewardAuRa.sol",
     "exportedSymbols": {
       "IBlockRewardAuRa": [
         11930
@@ -435,7 +435,7 @@
     "src": "0:367:15"
   },
   "legacyAST": {
-    "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/IBlockRewardAuRa.sol",
+    "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/IBlockRewardAuRa.sol",
     "exportedSymbols": {
       "IBlockRewardAuRa": [
         11930

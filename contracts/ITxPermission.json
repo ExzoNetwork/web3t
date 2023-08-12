@@ -20,15 +20,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.10+commit.5a6ea5b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"\",\"type\":\"address[]\"},{\"name\":\"\",\"type\":\"address\"}],\"name\":\"initialize\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/ITxPermission.sol\":\"ITxPermission\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/ITxPermission.sol\":{\"keccak256\":\"0x684c62026d9f961b08a332caf7d09ed10f6e31deb1d91666195f4158d27a99d3\",\"urls\":[\"bzzr://432728d5cb472ad42cea41bb1ab43fc717e611baee27de8f8a253f2d9730b32a\",\"dweb:/ipfs/QmWTmsLXvfMrXvnmwTB5jXk8NkTVQNcEu39zdzmf8eZ6bU\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.10+commit.5a6ea5b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"\",\"type\":\"address[]\"},{\"name\":\"\",\"type\":\"address\"}],\"name\":\"initialize\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/ITxPermission.sol\":\"ITxPermission\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/ITxPermission.sol\":{\"keccak256\":\"0x684c62026d9f961b08a332caf7d09ed10f6e31deb1d91666195f4158d27a99d3\",\"urls\":[\"bzzr://432728d5cb472ad42cea41bb1ab43fc717e611baee27de8f8a253f2d9730b32a\",\"dweb:/ipfs/QmWTmsLXvfMrXvnmwTB5jXk8NkTVQNcEu39zdzmf8eZ6bU\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity 0.5.10;\n\n\ninterface ITxPermission {\n    function initialize(address[] calldata, address) external;\n}\n",
-  "sourcePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/ITxPermission.sol",
+  "sourcePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/ITxPermission.sol",
   "ast": {
-    "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/ITxPermission.sol",
+    "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/ITxPermission.sol",
     "exportedSymbols": {
       "ITxPermission": [
         12370
@@ -160,7 +160,7 @@
     "src": "0:117:26"
   },
   "legacyAST": {
-    "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/ITxPermission.sol",
+    "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/ITxPermission.sol",
     "exportedSymbols": {
       "ITxPermission": [
         12370

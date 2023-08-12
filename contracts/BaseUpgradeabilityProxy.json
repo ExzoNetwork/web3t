@@ -19,15 +19,15 @@
       "type": "event"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.10+commit.5a6ea5b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"implementation\",\"type\":\"address\"}],\"name\":\"Upgraded\",\"type\":\"event\"}],\"devdoc\":{\"details\":\"This contract implements a proxy that allows to change the implementation address to which it will delegate. Such a change is called an implementation upgrade.\",\"methods\":{},\"title\":\"BaseUpgradeabilityProxy\"},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/upgradeability/BaseUpgradeabilityProxy.sol\":\"BaseUpgradeabilityProxy\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/libs/Address.sol\":{\"keccak256\":\"0x29a348027acef5e7aff7520d971c85294a098d09c2fb18a4281d8f012e0f83b6\",\"urls\":[\"bzzr://d6306bd3440a83d95cacf3a49a1d5e2ee55a0f10ae4796b1a088989bbfa02d9a\",\"dweb:/ipfs/QmPRHPqhg2je9Keyo6yhye6n7PCpYEy2jtLwinmBWdpAyz\"]},\"/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/upgradeability/BaseUpgradeabilityProxy.sol\":{\"keccak256\":\"0x6bb268f587d519c9525d4f728412be20eb41ddbf361e370faf615c6333edf5d4\",\"urls\":[\"bzzr://775ae2c6663596937d439aed2f58456b4f9de37ef0a81ad7f37ce9195275360f\",\"dweb:/ipfs/QmRhkWe2Vn8nb2V77vU3SWqY7r9ki9opJHhumRu38SYaQW\"]},\"/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/upgradeability/Proxy.sol\":{\"keccak256\":\"0x96a895ef0545d209e1315f6ab9e798aaf5a2118b5e29705a68131e8da2fec389\",\"urls\":[\"bzzr://56c8499c596da996bbd56c55bde41d22ff70208ba68bae67f9c851fd17a32fa8\",\"dweb:/ipfs/Qme5DbuZFwrUbXiXvHyfWu1z1VoWQ4RtgsHL8PP8KD1JBn\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.10+commit.5a6ea5b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"implementation\",\"type\":\"address\"}],\"name\":\"Upgraded\",\"type\":\"event\"}],\"devdoc\":{\"details\":\"This contract implements a proxy that allows to change the implementation address to which it will delegate. Such a change is called an implementation upgrade.\",\"methods\":{},\"title\":\"BaseUpgradeabilityProxy\"},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/upgradeability/BaseUpgradeabilityProxy.sol\":\"BaseUpgradeabilityProxy\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/libs/Address.sol\":{\"keccak256\":\"0x29a348027acef5e7aff7520d971c85294a098d09c2fb18a4281d8f012e0f83b6\",\"urls\":[\"bzzr://d6306bd3440a83d95cacf3a49a1d5e2ee55a0f10ae4796b1a088989bbfa02d9a\",\"dweb:/ipfs/QmPRHPqhg2je9Keyo6yhye6n7PCpYEy2jtLwinmBWdpAyz\"]},\"/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/upgradeability/BaseUpgradeabilityProxy.sol\":{\"keccak256\":\"0x6bb268f587d519c9525d4f728412be20eb41ddbf361e370faf615c6333edf5d4\",\"urls\":[\"bzzr://775ae2c6663596937d439aed2f58456b4f9de37ef0a81ad7f37ce9195275360f\",\"dweb:/ipfs/QmRhkWe2Vn8nb2V77vU3SWqY7r9ki9opJHhumRu38SYaQW\"]},\"/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/upgradeability/Proxy.sol\":{\"keccak256\":\"0x96a895ef0545d209e1315f6ab9e798aaf5a2118b5e29705a68131e8da2fec389\",\"urls\":[\"bzzr://56c8499c596da996bbd56c55bde41d22ff70208ba68bae67f9c851fd17a32fa8\",\"dweb:/ipfs/Qme5DbuZFwrUbXiXvHyfWu1z1VoWQ4RtgsHL8PP8KD1JBn\"]}},\"version\":1}",
   "bytecode": "0x6080604052348015600f57600080fd5b50609d8061001e6000396000f3fe6080604052600a600c565b005b6012601e565b601e601a6020565b6045565b565b7f360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc5490565b3660008037600080366000845af43d6000803e8080156063573d6000f35b3d6000fdfea265627a7a72305820f78da3c145f53855be8e979b85008c663ec3983fb3e2bbfdf4fa5137b9b4bb1564736f6c634300050a0032",
   "deployedBytecode": "0x6080604052600a600c565b005b6012601e565b601e601a6020565b6045565b565b7f360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc5490565b3660008037600080366000845af43d6000803e8080156063573d6000f35b3d6000fdfea265627a7a72305820f78da3c145f53855be8e979b85008c663ec3983fb3e2bbfdf4fa5137b9b4bb1564736f6c634300050a0032",
   "sourceMap": "295:1680:32:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;295:1680:32;;;;;;;",
   "deployedSourceMap": "295:1680:32:-;;;468:11:33;:9;:11::i;:::-;295:1680:32;2103:100:33;2143:15;:13;:15::i;:::-;2168:28;2178:17;:15;:17::i;:::-;2168:9;:28::i;:::-;2103:100::o;990:176:32:-;800:66;1139:11;;1117:43::o;917:819:33:-;1247:12;1244:1;1241;1228:32;1455:1;1452;1438:12;1435:1;1419:14;1414:3;1401:56;1531:14;1528:1;1525;1510:36;1567:6;1634:36;;;;1703:14;1700:1;1693:25;1634:36;1653:14;1650:1;1643:25",
   "source": "pragma solidity 0.5.10;\n\nimport \"./Proxy.sol\";\nimport \"../libs/Address.sol\";\n\n\n/**\n * @title BaseUpgradeabilityProxy\n * @dev This contract implements a proxy that allows to change the\n * implementation address to which it will delegate.\n * Such a change is called an implementation upgrade.\n */\ncontract BaseUpgradeabilityProxy is Proxy {\n    /**\n     * @dev Emitted when the implementation is upgraded.\n     * @param implementation Address of the new implementation.\n     */\n    event Upgraded(address indexed implementation);\n\n    /**\n     * @dev Storage slot with the address of the current implementation.\n     * This is the keccak-256 hash of \"eip1967.proxy.implementation\" subtracted by 1, and is\n     * validated in the constructor.\n     */\n    bytes32 internal constant IMPLEMENTATION_SLOT = 0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc;\n\n    /**\n     * @dev Returns the current implementation.\n     * @return Address of the current implementation\n     */\n    function _implementation() internal view returns (address impl) {\n        bytes32 slot = IMPLEMENTATION_SLOT;\n        assembly {\n            impl := sload(slot)\n        }\n    }\n\n    /**\n     * @dev Upgrades the proxy to a new implementation.\n     * @param newImplementation Address of the new implementation.\n     */\n    function _upgradeTo(address newImplementation) internal {\n        _setImplementation(newImplementation);\n        emit Upgraded(newImplementation);\n    }\n\n    /**\n     * @dev Sets the implementation address of the proxy.\n     * @param newImplementation Address of the new implementation.\n     */\n    function _setImplementation(address newImplementation) internal {\n        require(\n            OpenZeppelinUpgradesAddress.isContract(newImplementation),\n            \"Cannot set a proxy implementation to a non-contract address\"\n        );\n\n        bytes32 slot = IMPLEMENTATION_SLOT;\n\n        assembly {\n            sstore(slot, newImplementation)\n        }\n    }\n}\n",
-  "sourcePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/upgradeability/BaseUpgradeabilityProxy.sol",
+  "sourcePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/upgradeability/BaseUpgradeabilityProxy.sol",
   "ast": {
-    "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/upgradeability/BaseUpgradeabilityProxy.sol",
+    "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/upgradeability/BaseUpgradeabilityProxy.sol",
     "exportedSymbols": {
       "BaseUpgradeabilityProxy": [
         12875
@@ -47,7 +47,7 @@
         "src": "0:23:32"
       },
       {
-        "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/upgradeability/Proxy.sol",
+        "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/upgradeability/Proxy.sol",
         "file": "./Proxy.sol",
         "id": 12820,
         "nodeType": "ImportDirective",
@@ -58,7 +58,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/libs/Address.sol",
+        "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/libs/Address.sol",
         "file": "../libs/Address.sol",
         "id": 12821,
         "nodeType": "ImportDirective",
@@ -769,7 +769,7 @@
     "src": "0:1976:32"
   },
   "legacyAST": {
-    "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/upgradeability/BaseUpgradeabilityProxy.sol",
+    "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/upgradeability/BaseUpgradeabilityProxy.sol",
     "exportedSymbols": {
       "BaseUpgradeabilityProxy": [
         12875
@@ -789,7 +789,7 @@
         "src": "0:23:32"
       },
       {
-        "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/upgradeability/Proxy.sol",
+        "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/upgradeability/Proxy.sol",
         "file": "./Proxy.sol",
         "id": 12820,
         "nodeType": "ImportDirective",
@@ -800,7 +800,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/libs/Address.sol",
+        "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/libs/Address.sol",
         "file": "../libs/Address.sol",
         "id": 12821,
         "nodeType": "ImportDirective",

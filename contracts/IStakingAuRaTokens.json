@@ -16,15 +16,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.10+commit.5a6ea5b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"erc677TokenContract\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/IStakingAuRaTokens.sol\":\"IStakingAuRaTokens\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/IStakingAuRaTokens.sol\":{\"keccak256\":\"0xbee3a522192007bb7073cb75ddb1ed05c276beba7a53e99a28012d1aadb8d3a3\",\"urls\":[\"bzzr://8acb9589988adf3e672b4c2b17bed3b1ee6da1fab657526943c785919d1e26a1\",\"dweb:/ipfs/QmUNU9kpP4bB5HRPyLUknVinDUehXKrdU1j7xBgeApjQ2E\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.10+commit.5a6ea5b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"erc677TokenContract\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/IStakingAuRaTokens.sol\":\"IStakingAuRaTokens\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/IStakingAuRaTokens.sol\":{\"keccak256\":\"0xbee3a522192007bb7073cb75ddb1ed05c276beba7a53e99a28012d1aadb8d3a3\",\"urls\":[\"bzzr://8acb9589988adf3e672b4c2b17bed3b1ee6da1fab657526943c785919d1e26a1\",\"dweb:/ipfs/QmUNU9kpP4bB5HRPyLUknVinDUehXKrdU1j7xBgeApjQ2E\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity 0.5.10;\n\n\ninterface IStakingAuRaTokens {\n    function erc677TokenContract() external view returns(address);\n}\n",
-  "sourcePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/IStakingAuRaTokens.sol",
+  "sourcePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/IStakingAuRaTokens.sol",
   "ast": {
-    "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/IStakingAuRaTokens.sol",
+    "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/IStakingAuRaTokens.sol",
     "exportedSymbols": {
       "IStakingAuRaTokens": [
         12359
@@ -119,7 +119,7 @@
     "src": "0:126:25"
   },
   "legacyAST": {
-    "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/IStakingAuRaTokens.sol",
+    "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/IStakingAuRaTokens.sol",
     "exportedSymbols": {
       "IStakingAuRaTokens": [
         12359

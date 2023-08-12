@@ -20,15 +20,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.10+commit.5a6ea5b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"\",\"type\":\"address[]\"},{\"name\":\"\",\"type\":\"address\"}],\"name\":\"initialize\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/ICertifier.sol\":\"ICertifier\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/ICertifier.sol\":{\"keccak256\":\"0xc56a62e764c62ce3a1e4dd9e223bcf4cf7201129c2a2b99fc0b1cc60de027bd3\",\"urls\":[\"bzzr://acb1cd8cbb51bbe0dc831c42e7d38ab0ac627b0457f9a2630ba407dfd37a60f9\",\"dweb:/ipfs/QmZ3ATXDoatU14A6xUdGgyaSCU9Q2rg1qNJJKUQ171YEFt\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.10+commit.5a6ea5b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"\",\"type\":\"address[]\"},{\"name\":\"\",\"type\":\"address\"}],\"name\":\"initialize\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/ICertifier.sol\":\"ICertifier\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/ICertifier.sol\":{\"keccak256\":\"0xc56a62e764c62ce3a1e4dd9e223bcf4cf7201129c2a2b99fc0b1cc60de027bd3\",\"urls\":[\"bzzr://acb1cd8cbb51bbe0dc831c42e7d38ab0ac627b0457f9a2630ba407dfd37a60f9\",\"dweb:/ipfs/QmZ3ATXDoatU14A6xUdGgyaSCU9Q2rg1qNJJKUQ171YEFt\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity 0.5.10;\n\n\ninterface ICertifier {\n    function initialize(address[] calldata, address) external;\n}\n",
-  "sourcePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/ICertifier.sol",
+  "sourcePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/ICertifier.sol",
   "ast": {
-    "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/ICertifier.sol",
+    "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/ICertifier.sol",
     "exportedSymbols": {
       "ICertifier": [
         12007
@@ -160,7 +160,7 @@
     "src": "0:114:18"
   },
   "legacyAST": {
-    "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/ICertifier.sol",
+    "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/ICertifier.sol",
     "exportedSymbols": {
       "ICertifier": [
         12007

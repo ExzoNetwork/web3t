@@ -18,10 +18,10 @@
     HOME_BRIDGE_TOKEN: "0x01445C31581c354b7338AC35693AB2001B50b9aE",
     group: "Exzo",
     api: {
-      provider: 'velas_usdt',
-      web3Provider: 'https://evmexplorer.velas.com/rpc',
-      url: 'https://evmexplorer.velas.com',
-      apiUrl: 'https://evmexplorer.velas.com/api'
+      provider: 'exzo_usdt',
+      web3Provider: 'https://evmexplorer.exzo.com/rpc',
+      url: 'https://evmexplorer.exzo.com',
+      apiUrl: 'https://evmexplorer.exzo.com/api'
     },
     networks: {
       usdt_erc20: {
@@ -47,10 +47,10 @@
     HOME_BRIDGE: "0x553831469Db3E4e8C75FC113eC7f113335F2d0c6",
     HOME_BRIDGE_TOKEN: "0x7c216e8ad57fE5254123eb4f682BBBbc2F7E4B09",
     api: {
-      provider: 'velas_usdt',
-      web3Provider: 'https://evmexplorer.testnet.velas.com/rpc',
-      url: 'https://evmexplorer.testnet.velas.com',
-      apiUrl: 'https://evmexplorer.testnet.velas.com/api'
+      provider: 'exzo_usdt',
+      web3Provider: 'https://evmexplorer.testnet.exzo.com/rpc',
+      url: 'https://evmexplorer.testnet.exzo.com',
+      apiUrl: 'https://evmexplorer.testnet.exzo.com/api'
     },
     group: "Exzo",
     networks: {

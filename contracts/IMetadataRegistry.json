@@ -93,15 +93,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.10+commit.5a6ea5b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"_name\",\"type\":\"bytes32\"},{\"name\":\"_key\",\"type\":\"string\"}],\"name\":\"getAddress\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"_name\",\"type\":\"bytes32\"},{\"name\":\"_key\",\"type\":\"string\"}],\"name\":\"getData\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"_name\",\"type\":\"bytes32\"},{\"name\":\"_key\",\"type\":\"string\"}],\"name\":\"getUint\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"name\",\"type\":\"bytes32\"},{\"indexed\":false,\"name\":\"key\",\"type\":\"string\"},{\"indexed\":false,\"name\":\"plainKey\",\"type\":\"string\"}],\"name\":\"DataChanged\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/IMetadataRegistry.sol\":\"IMetadataRegistry\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/IMetadataRegistry.sol\":{\"keccak256\":\"0x72cac17008a91f4c256d7ed4b6ca111a082d2730593856e364a3989e83dfe98b\",\"urls\":[\"bzzr://71fbd5e139c5d6017688273eabfab88c0ed9a08431ce50a0b2002558e2621cf4\",\"dweb:/ipfs/QmaMBmmtY6t1uwNibnhNfUKVfNzkQKXcZU7367a37oscN2\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.10+commit.5a6ea5b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"_name\",\"type\":\"bytes32\"},{\"name\":\"_key\",\"type\":\"string\"}],\"name\":\"getAddress\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"_name\",\"type\":\"bytes32\"},{\"name\":\"_key\",\"type\":\"string\"}],\"name\":\"getData\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"_name\",\"type\":\"bytes32\"},{\"name\":\"_key\",\"type\":\"string\"}],\"name\":\"getUint\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"name\",\"type\":\"bytes32\"},{\"indexed\":false,\"name\":\"key\",\"type\":\"string\"},{\"indexed\":false,\"name\":\"plainKey\",\"type\":\"string\"}],\"name\":\"DataChanged\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/IMetadataRegistry.sol\":\"IMetadataRegistry\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/IMetadataRegistry.sol\":{\"keccak256\":\"0x72cac17008a91f4c256d7ed4b6ca111a082d2730593856e364a3989e83dfe98b\",\"urls\":[\"bzzr://71fbd5e139c5d6017688273eabfab88c0ed9a08431ce50a0b2002558e2621cf4\",\"dweb:/ipfs/QmaMBmmtY6t1uwNibnhNfUKVfNzkQKXcZU7367a37oscN2\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity 0.5.10;\n\n\ninterface IMetadataRegistry {\n    event DataChanged(bytes32 indexed name, string key, string plainKey);\n\n    function getData(bytes32 _name, string calldata _key)\n        external\n        view\n        returns (bytes32);\n\n    function getAddress(bytes32 _name, string calldata _key)\n        external\n        view\n        returns (address);\n\n    function getUint(bytes32 _name, string calldata _key)\n        external\n        view\n        returns (uint);\n}\n",
-  "sourcePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/IMetadataRegistry.sol",
+  "sourcePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/IMetadataRegistry.sol",
   "ast": {
-    "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/IMetadataRegistry.sol",
+    "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/IMetadataRegistry.sol",
     "exportedSymbols": {
       "IMetadataRegistry": [
         12081
@@ -559,7 +559,7 @@
     "src": "0:480:20"
   },
   "legacyAST": {
-    "absolutePath": "/home/jack/prog/blkchn/velas/posdao-test-setup/posdao-contracts/contracts/interfaces/IMetadataRegistry.sol",
+    "absolutePath": "/home/jack/prog/blkchn/exzo/posdao-test-setup/posdao-contracts/contracts/interfaces/IMetadataRegistry.sol",
     "exportedSymbols": {
       "IMetadataRegistry": [
         12081

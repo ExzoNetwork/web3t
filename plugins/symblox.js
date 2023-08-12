@@ -25,9 +25,9 @@
       "mask": "0x0000000000000000000000000000000000000000",
       "api": {
         "provider": "xzoerc20",
-        "web3Provider": "https://explorer.velas.com/rpc",
-        "url": "https://explorer.velas.com",
-        "apiUrl": "https://explorer.velas.com/api"
+        "web3Provider": "https://explorer.exzo.com/rpc",
+        "url": "https://explorer.exzo.com",
+        "apiUrl": "https://explorer.exzo.com/api"
       },
       "group": 'Exzo Legacy'
     }
