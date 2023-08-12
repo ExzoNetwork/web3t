@@ -18,9 +18,9 @@
     FOREIGN_BRIDGE_TOKEN: "0x85219708c49aa701871Ad330A94EA0f41dFf24Ca",
     api: {
       provider: 'exzo_eth',
-      web3Provider: 'https://evmexplorer.exzo.com/rpc',
-      url: 'https://evmexplorer.exzo.com',
-      apiUrl: 'https://evmexplorer.exzo.com/api'
+      web3Provider: 'https://evmexplorer.velas.com/rpc',
+      url: 'https://evmexplorer.velas.com',
+      apiUrl: 'https://evmexplorer.velas.com/api'
     },
     group: "Exzo",
     networks: {

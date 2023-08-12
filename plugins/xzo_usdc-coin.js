@@ -11,9 +11,9 @@
     },
     api: {
       provider: 'xzo_usdc',
-      web3Provider: 'https://evmexplorer.exzo.com/rpc',
-      url: 'https://evmexplorer.exzo.com',
-      apiUrl: 'https://evmexplorer.exzo.com/api',
+      web3Provider: 'https://evmexplorer.velas.com/rpc',
+      url: 'https://evmexplorer.velas.com',
+      apiUrl: 'https://evmexplorer.velas.com/api',
       apikey: 'KXYT4M24AWGIV585T7T38GUNMB4IRSY7H9'
     },
     address: "0xe2C120f188eBd5389F71Cf4d9C16d05b62A58993",

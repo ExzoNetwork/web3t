@@ -11,9 +11,9 @@
     },
     api: {
       provider: 'exzo_busd',
-      apiUrl: 'https://evmexplorer.exzo.com/api',
-      web3Provider: "https://evmexplorer.exzo.com/rpc",
-      url: 'https://evmexplorer.exzo.com'
+      apiUrl: 'https://evmexplorer.velas.com/api',
+      web3Provider: "https://evmexplorer.velas.com/rpc",
+      url: 'https://evmexplorer.velas.com'
     },
     group: "Exzo",
     address: "0xc111c29A988AE0C0087D97b33C6E6766808A3BD3",
