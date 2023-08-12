@@ -29,7 +29,7 @@
         "url": "https://explorer.velas.com",
         "apiUrl": "https://explorer.velas.com/api"
       },
-      "group": 'Velas Legacy'
+      "group": 'Exzo Legacy'
     }
   };
 }).call(this);

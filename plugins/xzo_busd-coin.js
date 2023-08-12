@@ -15,7 +15,7 @@
       web3Provider: "https://evmexplorer.velas.com/rpc",
       url: 'https://evmexplorer.velas.com'
     },
-    group: "Velas",
+    group: "Exzo",
     address: "0xc111c29A988AE0C0087D97b33C6E6766808A3BD3",
     HOME_BRIDGE: "0x902b79F10Ecc887AF6980fD13581A4d0e5db3788",
     HOME_BRIDGE_TOKEN: "0xc111c29A988AE0C0087D97b33C6E6766808A3BD3",
@@ -48,7 +48,7 @@
     HOME_BRIDGE_TOKEN: "0xe2172a8E1762ae9962A59EE88a731522A61a4cc9",
     txFeeIn: "xzo_evm",
     txBridgeFeeIn: "xzo_evm",
-    group: "Velas",
+    group: "Exzo",
     networks: {
       busd: {
         id: "busd",

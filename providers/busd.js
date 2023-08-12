@@ -158,7 +158,7 @@
     address = arg$.address;
     return toEthAddress(address, function (err) {
       if (err != null) {
-        return cb("Given address is not valid Velas (BSC) address");
+        return cb("Given address is not valid Exzo (BSC) address");
       }
       return cb(null, true);
     });

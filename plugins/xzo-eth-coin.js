@@ -22,7 +22,7 @@
       url: 'https://evmexplorer.velas.com',
       apiUrl: 'https://evmexplorer.velas.com/api'
     },
-    group: "Velas",
+    group: "Exzo",
     networks: {
       eth: {
         id: "eth",
@@ -52,7 +52,7 @@
       url: 'https://evmexplorer.testnet.velas.com',
       apiUrl: 'https://evmexplorer.testnet.velas.com/api'
     },
-    group: "Velas",
+    group: "Exzo",
     networks: {
       eth: {
         id: "eth",

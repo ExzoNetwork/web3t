@@ -22,7 +22,7 @@
       xzo_eth: {
         disabled: false,
         id: "xzo_eth",
-        name: "Velas EVM (ETH VRC20)",
+        name: "Exzo EVM (ETH VRC20)",
         referTo: "xzo_eth"
       }
     },
@@ -67,7 +67,7 @@
       xzo_eth: {
         disabled: false,
         id: "xzo_eth",
-        name: "Velas EVM (ETH VRC20)",
+        name: "Exzo EVM (ETH VRC20)",
         referTo: "xzo_eth"
       }
     },

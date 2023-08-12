@@ -15,7 +15,7 @@
       web3Provider: "https://evmexplorer.velas.com/rpc",
       url: 'https://evmexplorer.velas.com'
     },
-    group: "Velas",
+    group: "Exzo",
     address: "0xcD7509b76281223f5B7d3aD5d47F8D7Aa5C2B9bf",
     txFeeIn: "xzo_evm",
     txBridgeFeeIn: "xzo_evm",

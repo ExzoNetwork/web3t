@@ -21,7 +21,7 @@
     HOME_BRIDGE_TOKEN: "0xe2C120f188eBd5389F71Cf4d9C16d05b62A58993",
     txFeeIn: "xzo_evm",
     txBridgeFeeIn: "xzo_evm",
-    group: "Velas",
+    group: "Exzo",
     networks: {
       usdc: {
         id: "usdc",
@@ -50,7 +50,7 @@
     HOME_BRIDGE_TOKEN: "0x6b82bDB5a1AdFfa3816D1F942D60f0269647C646",
     txFeeIn: "xzo_evm",
     txBridgeFeeIn: "xzo_evm",
-    group: "Velas",
+    group: "Exzo",
     networks: {
       usdc: {
         id: "usdc",

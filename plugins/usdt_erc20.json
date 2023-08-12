@@ -35,7 +35,7 @@
         "networks": {
             "xzo_usdt": {
                 "id":"xzo_usdt",
-                "name": "Velas EVM (USDT VRC-20)",
+                "name": "Exzo EVM (USDT VRC-20)",
                 "referTo": "xzo_usdt"
             }
         },
@@ -68,7 +68,7 @@
         "networks": {
             "xzo_usdt": {
                 "id": "xzo_usdt",
-                "name": "Velas EVM (USDT VRC-20)",
+                "name": "Exzo EVM (USDT VRC-20)",
                 "referTo": "xzo_usdt"
             }
         }

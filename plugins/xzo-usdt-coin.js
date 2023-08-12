@@ -16,7 +16,7 @@
     address: "0x01445C31581c354b7338AC35693AB2001B50b9aE",
     HOME_BRIDGE: "0x8418d32363f9B8BAbB105cEDfAf42493222FA20E",
     HOME_BRIDGE_TOKEN: "0x01445C31581c354b7338AC35693AB2001B50b9aE",
-    group: "Velas",
+    group: "Exzo",
     api: {
       provider: 'velas_usdt',
       web3Provider: 'https://evmexplorer.velas.com/rpc',
@@ -52,7 +52,7 @@
       url: 'https://evmexplorer.testnet.velas.com',
       apiUrl: 'https://evmexplorer.testnet.velas.com/api'
     },
-    group: "Velas",
+    group: "Exzo",
     networks: {
       usdt_erc20: {
         id: "usdt_erc20",

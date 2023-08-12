@@ -24,7 +24,7 @@
     networks: {
       xzo_usdc: {
         id: "xzo_usdc",
-        name: "Velas EVM (USDC VRC-20)",
+        name: "Exzo EVM (USDC VRC-20)",
         referTo: "xzo_usdc"
       }
     }
@@ -52,7 +52,7 @@
     networks: {
       xzo_usdc: {
         id: "xzo_usdc",
-        name: "Velas EVM (USDC VRC-20)",
+        name: "Exzo EVM (USDC VRC-20)",
         referTo: "xzo_usdc"
       }
     }

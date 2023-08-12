@@ -39,7 +39,7 @@ const binanceBscRpc = require("./commonTokenConfigs/binanceBscRpc");
     networks: {
       xzo_evm: {
         id: "xzo_evm",
-        name: "Velas EVM (XZO)",
+        name: "Exzo EVM (XZO)",
         referTo: "xzo_evm",
       },
     },
@@ -69,7 +69,7 @@ const binanceBscRpc = require("./commonTokenConfigs/binanceBscRpc");
     networks: {
       xzo_evm: {
         id: "xzo_evm",
-        name: "Velas EVM (XZO)",
+        name: "Exzo EVM (XZO)",
         referTo: "xzo_evm",
       },
     },
@@ -77,7 +77,7 @@ const binanceBscRpc = require("./commonTokenConfigs/binanceBscRpc");
   out$.color = color = "#9E4FEB";
   out$.type = type = "coin";
   out$.enabled = enabled = true;
-  out$.name = name = "Velas BEP-20";
+  out$.name = name = "Exzo BEP-20";
   out$.token = token = "bsc_xzo";
   out$.nickname = nickname = "xzo";
   out$.image = image =

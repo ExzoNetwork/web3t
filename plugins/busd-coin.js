@@ -38,7 +38,7 @@ const binanceBscRpc = require("./commonTokenConfigs/binanceBscRpc");
     networks: {
       xzo_busd: {
         id: "xzo_busd",
-        name: "Velas (BUSD)",
+        name: "Exzo (BUSD)",
         referTo: "xzo_busd",
       },
     },
@@ -66,7 +66,7 @@ const binanceBscRpc = require("./commonTokenConfigs/binanceBscRpc");
     networks: {
       xzo_busd: {
         id: "xzo_busd",
-        name: "Velas (BUSD)",
+        name: "Exzo (BUSD)",
         referTo: "xzo_busd",
       },
     },

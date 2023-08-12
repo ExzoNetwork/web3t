@@ -60,7 +60,7 @@
       xzo_eth: {
         disabled: true,
         id: "xzo_eth",
-        name: "Ethereum (Velas EVM)",
+        name: "Ethereum (Exzo EVM)",
         referTo: "xzo_eth"
       }
     },

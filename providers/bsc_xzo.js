@@ -33,7 +33,7 @@
     sha3,
     isChecksumAddress,
     isAddress,
-    toVelasAddress,
+    toExzoAddress,
     toEthAddress,
     isValidAddress,
     getEthereumFullpairByIndex,
@@ -134,7 +134,7 @@
       }
     }
   };
-  toVelasAddress = function (ethAddressBuffer) {
+  toExzoAddress = function (ethAddressBuffer) {
     var s1;
     s1 = encode(ethAddressBuffer);
     return "V" + s1;
@@ -166,7 +166,7 @@
   }
   if (typeof window != "undefined" && window !== null) {
     if (typeof window != "undefined" && window !== null) {
-      window.toVelasAddress = ethToVlx;
+      window.toExzoAddress = ethToVlx;
     }
   }
   out$.isValidAddress = isValidAddress = function (arg$, cb) {
@@ -174,7 +174,7 @@
     address = arg$.address;
     return toEthAddress(address, function (err) {
       if (err != null) {
-        return cb("Given address is not valid Velas address");
+        return cb("Given address is not valid Exzo address");
       }
       return cb(null, true);
     });

@@ -22,16 +22,16 @@
     networks: {
       xzo_evm: {
         id: "xzo_evm",
-        name: "Velas EVM",
+        name: "Exzo EVM",
         referTo: "xzo_evm"
       },
       xzo2: {
         id: "xzo2",
-        name: "Velas Legacy",
+        name: "Exzo Legacy",
         referTo: "xzo2"
       }
     },
-    group: 'Velas'
+    group: 'Exzo'
   };
   testnetConfig = {
     decimals: 9,
@@ -54,16 +54,16 @@
     networks: {
       xzo_evm: {
         id: "xzo_evm",
-        name: "Velas EVM",
+        name: "Exzo EVM",
         referTo: "xzo_evm"
       },
       xzo2: {
         id: "xzo2",
-        name: "Velas Legacy",
+        name: "Exzo Legacy",
         referTo: "xzo2"
       }
     },
-    group: 'Velas'
+    group: 'Exzo'
   };
   devnetConfig = {
     decimals: 9,
@@ -84,16 +84,16 @@
     networks: {
       legacy: {
         id: "legacy",
-        name: "Velas",
+        name: "Exzo",
         referTo: "xzo2"
       },
       evm: {
         id: "evm",
-        name: "Velas EVM",
+        name: "Exzo EVM",
         referTo: "xzo_evm"
       }
     },
-    group: 'Velas'
+    group: 'Exzo'
   };
   out$.mainnet = mainnet = mainnetConfig;
   out$.testnet = testnet = testnetConfig;
@@ -102,7 +102,7 @@
   out$.type = type = 'coin';
   out$.walletIndex = walletIndex = 0;
   out$.enabled = enabled = true;
-  out$.name = name = 'Velas Native';
+  out$.name = name = 'Exzo Native';
   out$.token = token = 'xzo_native';
   out$.nickname = nickname = 'xzo';
   out$.market = market = "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?id=4747&range=ALL";

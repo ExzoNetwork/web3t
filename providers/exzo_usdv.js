@@ -69,7 +69,7 @@
     address = arg$.address;
     return toEthAddress(address, function(err){
       if (err != null) {
-        return cb("Given address is not valid Velas (BSC) address");
+        return cb("Given address is not valid Exzo (BSC) address");
       }
       return cb(null, true);
     });
@@ -441,7 +441,7 @@
                 }
                 xzoEvmBalanceEth = toEth(xzoEvmBalance);
                 if (+xzoEvmBalanceEth < +amountFee) {
-                  return cb("Velas EVM balance (" + xzoEvmBalanceEth + ") is not enough to send tx");
+                  return cb("Exzo EVM balance (" + xzoEvmBalanceEth + ") is not enough to send tx");
                 }
                 dataParsed = (function(){
                   switch (false) {

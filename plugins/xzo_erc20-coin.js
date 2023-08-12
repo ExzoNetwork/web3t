@@ -29,7 +29,7 @@
     networks: {
       xzo_evm: {
         id: "xzo_evm",
-        name: "Velas EVM (XZO)",
+        name: "Exzo EVM (XZO)",
         referTo: "xzo_evm"
       }
     }
@@ -62,7 +62,7 @@
     networks: {
       xzo_evm: {
         id: "xzo_evm",
-        name: "Velas EVM (XZO)",
+        name: "Exzo EVM (XZO)",
         referTo: "xzo_evm"
       }
     }
@@ -73,7 +73,7 @@
   out$.type = type = 'coin';
   out$.enabled = enabled = true;
   out$.walletIndex = walletIndex = 3;
-  out$.name = name = 'Velas ERC-20';
+  out$.name = name = 'Exzo ERC-20';
   out$.token = token = 'xzo_erc20';
   out$.nickname = nickname = 'xzo';
   out$.market = market = "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?id=4747&range=ALL";
