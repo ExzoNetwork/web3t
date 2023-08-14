@@ -27,7 +27,7 @@
         "provider": "xzoerc20",
         "web3Provider": "https://evm.exzo.network",
         "url": "https://evm.exzoscan.io",
-        "apiUrl": "https://rpc-main-1.exzo.network"
+        "apiUrl": "https://evm.exzoscan.io/api"
       },
       "group": 'Exzo Legacy'
     }
