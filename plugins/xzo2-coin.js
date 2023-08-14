@@ -75,7 +75,7 @@
   out$.type = type = 'coin';
   out$.walletIndex = walletIndex = 1;
   out$.market = market = "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?id=4747&range=ALL";
-  out$.enabled = enabled = true;
+  out$.enabled = enabled = false;
   out$.name = name = 'Exzo Legacy';
   out$.token = token = 'xzo2';
   out$.nickname = nickname = 'xzo';
