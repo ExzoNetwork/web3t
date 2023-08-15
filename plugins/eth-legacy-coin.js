@@ -87,7 +87,7 @@
   out$.color = color = '#5838B8';
   out$.testnet = testnet = ropsten;
   out$.type = type = 'coin';
-  out$.enabled = enabled = true;
+  out$.enabled = enabled = false;
   out$.name = name = 'Ethereum Legacy';
   out$.nickname = nickname = 'eth';
   out$.walletIndex = walletIndex = 4;

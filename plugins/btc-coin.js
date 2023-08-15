@@ -63,7 +63,7 @@
   };
   out$.color = color = '#4650E7';
   out$.type = type = 'coin';
-  out$.enabled = enabled = true;
+  out$.enabled = enabled = false;
   out$.name = name = 'Bitcoin';
   out$.nickname = nickname = 'btc';
   out$.walletIndex = walletIndex = 1;

@@ -4,7 +4,7 @@
     "token": "usdt_erc20_legacy",
     "nickname": "usdt",
     "name": "Tether USD Legacy",
-    "enabled": true,
+    "enabled": false,
     "type": "coin",
     "color": "#4FA37C",
     
