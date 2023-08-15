@@ -40,9 +40,9 @@
     },
     api: {
       provider: 'xzo_usdc',
-      web3Provider: 'https://evmexplorer.testnet.exzo.com/rpc',
-      url: 'https://evmexplorer.testnet.exzo.com',
-      apiUrl: 'https://evmexplorer.testnet.exzo.com/api',
+      web3Provider: 'https://evmexplorer.testnet.velas.com/rpc',
+      url: 'https://evmexplorer.testnet.velas.com',
+      apiUrl: 'https://evmexplorer.testnet.velas.com/api',
       apikey: 'KXYT4M24AWGIV585T7T38GUNMB4IRSY7H9'
     },
     address: "0x6b82bDB5a1AdFfa3816D1F942D60f0269647C646",

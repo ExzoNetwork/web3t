@@ -39,9 +39,9 @@
     },
     api: {
       provider: 'exzo_busd',
-      web3Provider: 'https://evmexplorer.testnet.exzo.com/rpc',
-      url: 'https://evmexplorer.testnet.exzo.com',
-      apiUrl: 'https://evmexplorer.testnet.exzo.com/api'
+      web3Provider: 'https://evmexplorer.testnet.velas.com/rpc',
+      url: 'https://evmexplorer.testnet.velas.com',
+      apiUrl: 'https://evmexplorer.testnet.velas.com/api'
     },
     address: "0xe2172a8E1762ae9962A59EE88a731522A61a4cc9",
     HOME_BRIDGE: "0x729900a7db6bC1dAb1C2c953791C232Fb2A996Cb",

@@ -27,9 +27,9 @@
     },
     api: {
       provider: 'xzo_evm_legacy',
-      web3Provider: 'https://evmexplorer.testnet.exzo.com/rpc',
-      url: 'https://evmexplorer.testnet.exzo.com',
-      apiUrl: 'https://evmexplorer.testnet.exzo.com/api'
+      web3Provider: 'https://evmexplorer.testnet.velas.com/rpc',
+      url: 'https://evmexplorer.testnet.velas.com',
+      apiUrl: 'https://evmexplorer.testnet.velas.com/api'
     },
     group: "Exzo"
   };

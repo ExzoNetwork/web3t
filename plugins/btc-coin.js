@@ -13,9 +13,9 @@
     mask: '1000000000000000000000000000000000',
     api: {
       provider: 'bitcore',
-      url: 'https://bitcore.exzo.com',
+      url: 'https://bitcore.velas.com',
       networkName: 'mainnet',
-      linktx: 'https://bitcore.exzo.com/#/BTC/mainnet/tx/:hash',
+      linktx: 'https://bitcore.velas.com/#/BTC/mainnet/tx/:hash',
       decimal: 8,
       alternative: {
         balance: 'https://blockchain.info/q/addressbalance/:address'
@@ -39,7 +39,7 @@
     mask: '1000000000000000000000000000000000',
     api: {
       provider: 'bitcore',
-      url: 'https://bitcore.testnet.exzo.com',
+      url: 'https://bitcore.testnet.velas.com',
       networkName: 'testnet',
       linktx: 'https://bitpay.com/insight/#/BTC/testnet/tx/:hash',
       decimal: 8

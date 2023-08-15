@@ -46,9 +46,9 @@
     mask: 'V0000000000000',
     api: {
       provider: 'exzo2',
-      web3Provider: 'https://explorer.testnet.exzo.com/rpc',
-      url: 'https://explorer.testnet.exzo.com',
-      apiUrl: 'https://explorer.testnet.exzo.com/api'
+      web3Provider: 'https://explorer.testnet.velas.com/rpc',
+      url: 'https://explorer.testnet.velas.com',
+      apiUrl: 'https://explorer.testnet.velas.com/api'
     },
     HomeBridge: "0x57C7f6CD50a432943F40F987a1448181D5B11307",
     ForeignBridge: "0xBDeDd09D5283fB38EFF898E3859AbAE96B712aF9",

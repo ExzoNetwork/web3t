@@ -13,7 +13,7 @@
     mask: 'L000000000000000000000000000000000',
     api: {
       provider: 'insight',
-      url: 'https://insight-litecore.exzo.com',
+      url: 'https://insight-litecore.velas.com',
       decimal: 8
     },
     messagePrefix: '\x19Litecoin Signed Message:\n',

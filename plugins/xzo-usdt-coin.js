@@ -48,9 +48,9 @@
     HOME_BRIDGE_TOKEN: "0x7c216e8ad57fE5254123eb4f682BBBbc2F7E4B09",
     api: {
       provider: 'exzo_usdt',
-      web3Provider: 'https://evmexplorer.testnet.exzo.com/rpc',
-      url: 'https://evmexplorer.testnet.exzo.com',
-      apiUrl: 'https://evmexplorer.testnet.exzo.com/api'
+      web3Provider: 'https://evmexplorer.testnet.velas.com/rpc',
+      url: 'https://evmexplorer.testnet.velas.com',
+      apiUrl: 'https://evmexplorer.testnet.velas.com/api'
     },
     group: "Exzo",
     networks: {

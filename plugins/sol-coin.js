@@ -16,7 +16,7 @@
       web3Provider: 'https://evm.exzo.network',
       url: 'https://exzoscan.io',
       apiUrl: 'https://evm.exzoscan.io/api',
-      validatorsBackend: 'https://validators.mainnet.exzo.com',
+      validatorsBackend: 'https://validators.mainnet.velas.com',
     },
     HomeBridge: "0x56454c41532d434841494e000000000053574150",
     networks: {
@@ -44,10 +44,10 @@
     mask: '3000000000000000000000000000000000',
     api: {
       provider: 'solana',
-      web3Provider: 'https://api.testnet.exzo.com/rpc',
-      url: 'https://native.exzo.com',
-      apiUrl: 'https://explorer.testnet.exzo.com/api',
-      validatorsBackend: 'https://validators.testnet.exzo.com',
+      web3Provider: 'https://api.testnet.velas.com/rpc',
+      url: 'https://native.velas.com',
+      apiUrl: 'https://explorer.testnet.velas.com/api',
+      validatorsBackend: 'https://validators.testnet.velas.com',
       cluster: 'testnet'
     },
     HomeBridge: "0x56454c41532d434841494e000000000053574150",
@@ -76,9 +76,9 @@
     mask: '3000000000000000000000000000000000',
     api: {
       provider: 'solana',
-      web3Provider: 'https://api.devnet.exzo.com',
-      url: 'https://native.exzo.com',
-      apiUrl: 'https://api.devnet.exzo.com/api',
+      web3Provider: 'https://api.devnet.velas.com',
+      url: 'https://native.velas.com',
+      apiUrl: 'https://api.devnet.velas.com/api',
       cluster: 'devnet'
     },
     networks: {
