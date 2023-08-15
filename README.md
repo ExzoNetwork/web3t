@@ -30,12 +30,9 @@ npm i web3t
 #### Support
 ----
 
+* XZO (Exzocoin)
 * BTC (Bitcoin)
-* LTC (Litecoin)
 * ETH (Ethereum)
-* DASH 
-* XEM (NEM)
-* XRP (Ripple)
 * [ANY_COIN]
 
 #### Init Builder
