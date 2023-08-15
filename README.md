@@ -3,7 +3,6 @@
   <img src="https://res.cloudinary.com/nixar-work/image/upload/v1537612969/Screen_Shot_2018-09-22_at_13.41.49.png">
 </p>
 
-
 Implementation of web3 protocol
 
 #### Demo
