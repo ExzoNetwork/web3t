@@ -44,9 +44,9 @@
     mask: '3000000000000000000000000000000000',
     api: {
       provider: 'solana',
-      web3Provider: 'https://api.testnet.velas.com/rpc',
-      url: 'https://native.velas.com',
-      apiUrl: 'https://explorer.testnet.velas.com/api',
+      web3Provider: 'https://evm-test.exzo.network',
+      url: 'https://exzoscan.io',
+      apiUrl: 'https://evm.exzoscan.io/api',
       validatorsBackend: 'https://validators.testnet.exzo.network',
       cluster: 'testnet'
     },

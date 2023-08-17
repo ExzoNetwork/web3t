@@ -59,9 +59,9 @@
     },
     api: {
       provider: 'exzo_evm',
-      web3Provider: 'https://evmexplorer.testnet.velas.com/rpc',
-      url: 'https://evmexplorer.testnet.velas.com',
-      apiUrl: 'https://evmexplorer.testnet.velas.com/api'
+      apiUrl: 'https://evm-testnet.exzoscan.io/api',
+      web3Provider: 'https://evm-test.exzo.network',
+      url: 'https://evm-testnet.exzoscan.io'
     },
     HOME_BRIDGE: "0x57C7f6CD50a432943F40F987a1448181D5B11307",
     FOREIGN_BRIDGE: "0xBDeDd09D5283fB38EFF898E3859AbAE96B712aF9",
