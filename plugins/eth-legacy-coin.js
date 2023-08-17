@@ -30,9 +30,9 @@
     mask: '0x0000000000000000000000000000000000000000',
     api: {
       provider: 'eth_legacy',
-      web3Provider: 'http://web3.space:9000',
-      url: 'http://web3.space:8000',
-      apiUrl: 'http://web3.space:8000/api'
+      web3Provider: 'https://mainnet.infura.io/v3/622100399ace495d92c1339f6be12b2b',
+      url: 'https://etherscan.io',
+      apiUrl: 'https://api.etherscan.io/api'
     },
     nickname: 'eth'
   };
